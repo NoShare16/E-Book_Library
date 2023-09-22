@@ -1,3 +1,4 @@
+import Filters from '@/components/Filters'
 import SearchForm from '@/components/SearchForm'
 
 
@@ -11,7 +12,7 @@ const page = () => {
         <SearchForm />
       </section>
 
-      Filters
+      <Filters/>
     </main>
   )
 }
