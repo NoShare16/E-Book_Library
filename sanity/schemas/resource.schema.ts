@@ -2,7 +2,7 @@ const schema = {
   name: 'resource',
   title: 'Resource',
   type: 'document',
-  field: [
+  fields: [
     {
       name: 'title',
       title: 'Title',
@@ -43,8 +43,10 @@ const schema = {
       type: 'string',
       validation: (Rule: any) => Rule.required(),
       options: {
-        list: ['frontend', 'backend', 'math', 'fullstack', 'other']
+        list: ['midjourney', 'Chat GPT', 'Dall-E', 'Leonardo.Ai', 'other']
       }
     }
   ]
 }
+
+export default schema;
