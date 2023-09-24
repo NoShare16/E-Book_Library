@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-const links = ['all', 'Math', 'frontend', 'backend', 'fullstack' ]
+const links = ['all', 'Midjourney', 'Chat GPT', 'Dall-E', 'Leonardo.Ai' ]
 
 const Filters = () => {
     const [active, setActive] = useState('');

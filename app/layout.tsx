@@ -2,8 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'E-Book Library',
-  description: 'Modern E-Books Library',
+  title: 'AI Prompt Collection',
+  description: 'Collection of hundreds of prompts for Ai',
 }
 
 export default function RootLayout({
