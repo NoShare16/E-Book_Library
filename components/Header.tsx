@@ -1,5 +1,4 @@
 interface Props {
-  type: string;
   query: string;
   category: string;
 }
