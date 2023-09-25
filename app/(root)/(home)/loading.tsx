@@ -1,8 +1,13 @@
-import React from 'react'
+import { Skeleton } from "@/components/ui/skeleton"
+
 
 const loading = () => {
   return (
-    <div>loading</div>
+    <main>
+      <section>
+      <Skeleton className="w-[100px] h-[20px] rounded-full" />
+      </section>
+    </main>
   )
 }
 
